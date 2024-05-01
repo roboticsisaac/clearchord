@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com" crossorigin);
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Sevillana&display=swap');
+
+.chat-icon:hover {
+  color: black;
+}
+.icons-container {
+   
+  position: fixed;
+  bottom: 90px;
+  right: 90px;
+  display: flex;
+  gap: 10px;
+}
+.bi {
+  font-size: 48px; 
+}
+
+.custom-svg-icon {
+  width: 48px; 
+  height: 48px; }
+
+
+.fist {
+    color: #e1b642;
+    font-size: 1.3em;
+
+
+  }
+  .content1{
+    margin-left: 28%;
+    margin-top: 18%;
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+
+  }
+  
+  .clear {
+    font-family: 'Parisienne', cursive;
+    color: #fff;
+    font-size: 35px;
+  }
+  
+  .chord{
+    font-family: 'Parisienne', cursive;
+    color:#e1b642;
+    font-size: 35px;
+  }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #f7f8fa;
+  --secondary-color:rgb(17, 17, 25);
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: var(--transition);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+} 
+nav {
+    background:#2525256e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    
+    position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-left: 2rem;
+  }
+  
+  .nav-link {
+    font-weight: var(--bold-font);
+  }  
+ 
+
+footer {
+    background-color: #2525256e; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+   position: fixed;
+    
+        margin-top: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    
+
+
+}
+
+
+.footer-social {
+    font-size: 24px; 
+}
+
+.footer-social a {
+    color: #fff; 
+    margin: 0 10px; 
+    text-decoration: none;
+}
+
+
+.footer-copyright {
+    font-size: 14px; 
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+/* Product styles*/
+
